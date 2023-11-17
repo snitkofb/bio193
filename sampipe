@@ -1,0 +1,18 @@
+if ! [[ -f $1 && $1 = *.sam ]]; then
+    print -u2 "File '$1' does not exist or is not a .sam file."
+    exit 1
+fi
+
+base=${1%.*}     # strip suffix
+                 # if $1 is 'abc-def.ghi.sam', base='abc-def.ghi'
+echo "Fixing $1"
+samtools fixmate -u -m $1 $base.fixed.bam
+echo "Sorting $base.fixed.bam"
+samtools sort -u -@4 -T tmp/ $base.fixed.bam -o $base.sorted.bam
+echo "Marking duplicates of $base.sorted.bam"
+samtools markdup -@4 $base.sorted.bam $base.dedup.bam
+echo "Finalizing $base.dedup.bam"
+samtools view -@4 $base.dedup.bam -o $base.final.bam
+echo "Cleaning up"
+mv $1 $base.fixed.bam $base.sorted.bam $base.dedup.bam intermediates/
+echo "\07"

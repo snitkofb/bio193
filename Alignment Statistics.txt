@@ -1,0 +1,87 @@
+Staph Control v. Staph Index
+42568575 reads; of these:
+  42568575 (100.00%) were unpaired; of these:
+    6820645 (16.02%) aligned 0 times
+    35482658 (83.35%) aligned exactly 1 time
+    265272 (0.62%) aligned >1 times
+83.98% overall alignment rate
+
+Staph 258 v. Staph Index
+35497457 reads; of these:
+  35497457 (100.00%) were unpaired; of these:
+    27615022 (77.79%) aligned 0 times
+    7571390 (21.33%) aligned exactly 1 time
+    311045 (0.88%) aligned >1 times
+22.21% overall alignment rate
+
+Staph 258 v. P. polonicum Index (non-splice-aware)
+35497457 reads; of these:
+  35497457 (100.00%) were unpaired; of these:
+    16388999 (46.17%) aligned 0 times
+    17377255 (48.95%) aligned exactly 1 time
+    1731203 (4.88%) aligned >1 times
+53.83% overall alignment rate
+
+Staph 261 v. Staph Index
+32405954 reads; of these:
+  32405954 (100.00%) were unpaired; of these:
+    21529917 (66.44%) aligned 0 times
+    10258702 (31.66%) aligned exactly 1 time
+    617335 (1.91%) aligned >1 times
+33.56% overall alignment rate
+
+Staph 277 v. Staph Index
+33583381 reads; of these:
+  33583381 (100.00%) were unpaired; of these:
+    12519688 (37.28%) aligned 0 times
+    20901044 (62.24%) aligned exactly 1 time
+    162649 (0.48%) aligned >1 times
+62.72% overall alignment rate
+
+Staph 280 v. Staph Index
+47189559 reads; of these:
+  47189559 (100.00%) were unpaired; of these:
+    15454835 (32.75%) aligned 0 times
+    30758554 (65.18%) aligned exactly 1 time
+    976170 (2.07%) aligned >1 times
+67.25% overall alignment rate
+
+Staph MB v. Staph Index
+32973699 reads; of these:
+  32973699 (100.00%) were unpaired; of these:
+    7256027 (22.01%) aligned 0 times
+    24399930 (74.00%) aligned exactly 1 time
+    1317742 (4.00%) aligned >1 times
+77.99% overall alignment rate
+
+E. coli alone (BFI)
+68123955 reads; of these:
+  68123955 (100.00%) were unpaired; of these:
+    9383684 (13.77%) aligned 0 times
+    54827890 (80.48%) aligned exactly 1 time
+    3912381 (5.74%) aligned >1 times
+86.23% overall alignment rate
+
+E. coli with P. something (BFI)
+68625979 reads; of these:
+  68625979 (100.00%) were unpaired; of these:
+    35997684 (52.45%) aligned 0 times
+    30244254 (44.07%) aligned exactly 1 time
+    2384041 (3.47%) aligned >1 times
+47.55% overall alignment rate
+
+Glutamicibacter Control
+32690781 reads; of these:
+  32690781 (100.00%) were unpaired; of these:
+    1860116 (5.69%) aligned 0 times
+    26907226 (82.31%) aligned exactly 1 time
+    3923439 (12.00%) aligned >1 times
+94.31% overall alignment rate
+
+Glutamicibacter Experimental
+31861144 reads; of these:
+  31861144 (100.00%) were unpaired; of these:
+    6901315 (21.66%) aligned 0 times
+    23647532 (74.22%) aligned exactly 1 time
+    1312297 (4.12%) aligned >1 times
+78.34% overall alignment rate
