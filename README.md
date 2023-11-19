@@ -12,6 +12,8 @@ This is a repository of selected data, figures, tables, and custom scripts used 
 
 *sampipe* is a commandline zsh script to run several steps of samtools on a given file while saving intermediate files, all with a single command 
 
+*DE* is a folder containing the differential expression spreadsheets used as the basis for final data analysis with select annotations. 
+
 Alignment Statistics was generated with bowtie2 based on my commands described in the Methods Section
 
 convert.py was written entirely by myself
